@@ -1,0 +1,113 @@
+.properties {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+}
+.properties .container {
+  margin: 35px auto;
+  width: 100%;
+}
+.properties .container .row {
+  margin: 5px auto;
+}
+.properties .container .row .tex {
+  margin: 30px auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+.properties .container .row .tex button {
+  width: 140px;
+  padding: 5px;
+  margin: 0px 10px;
+  color: white;
+  background-color: #ee806c;
+  border-radius: 40px;
+  border: 1px #ff5a3c;
+}
+.properties .container .row .tex h3 {
+  margin: 20px 3px;
+  padding: 8px;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+.properties .container .row .card {
+  width: 100%;
+}
+.properties .container .row .card button {
+  position: absolute;
+}
+.properties .container .row .card .tt {
+  background-color: green;
+  color: white;
+  width: 100px;
+  padding: 2px;
+  border: 1px solid green;
+  border-radius: 5px;
+  float: right;
+  right: 0;
+  top: 2;
+  margin: 7px;
+}
+.properties .container .row .card .card {
+  border: none;
+}
+.properties .container .row .card .card-body h4 {
+  color: #ff5a3c;
+  font-size: 26px;
+  margin: 10px auto;
+  padding: 4px;
+}
+.properties .container .row .card .card-body .card-title {
+  padding: 4px;
+  margin: 4px;
+  font-size: 28px;
+  color: black;
+  font-weight: 700;
+}
+.properties .container .row .card .card-body .card-text {
+  padding: 2px;
+  margin: 4px;
+  color: black;
+}
+.properties .container .row .card .card-body .st {
+  margin: 10px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+.properties .container .row .card .card-body .st p {
+  font-weight: bold;
+}
+.properties .container .row .card .card-body .st p i {
+  font-size: 20px;
+  margin: 4px;
+  color: #ff5a3c;
+}
+.properties .container .row .card:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .properties .container .tex {
+    margin: 20px auto;
+    padding: 10px 10px;
+    text-align: center;
+  }
+  .properties .container .tex button {
+    width: 140px;
+    padding: 5px;
+    margin: 0px 10px;
+    color: white;
+    background-color: #ee806c;
+    border-radius: 40px;
+    border: 1px #ff5a3c;
+  }
+  .properties .container .tex h2 {
+    margin: 15px 3px;
+    padding: 0px;
+    font-size: 28px;
+    font-weight: normal;
+    color: black;
+  }
+}/*# sourceMappingURL=properties.css.map */

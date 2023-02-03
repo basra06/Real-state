@@ -1,0 +1,257 @@
+$sliderback: #eaecec;
+
+.slider {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background-color: $sliderback;
+    margin: 20px auto;
+
+    .slide {
+        margin: 10px 10px;
+
+        .name {
+            margin: 20px 10px;
+            padding: 10px 5px;
+
+            i {
+                color: #ff5a3c;
+                font-size: 20px;
+                // margin: 5px 3px;
+                margin: 10px 10px;
+                padding: 8px 4px;
+
+                span {
+                    color: #0b2c3d;
+                }
+
+            }
+
+
+            h2 {
+                text-transform: capitalize;
+                font-weight: bold;
+                margin: 5px 20px;
+                padding: 8px 10px;
+                font-size: 40px;
+                letter-spacing: 2px;
+                color: black;
+                font-family: initial;
+            }
+
+            p {
+                border-left: 2px solid gray;
+                text-transform: capitalize;
+                margin: 5px 20px;
+                padding: 8px 10px;
+                letter-spacing: 2px;
+                color: black;
+                font-family: inherit;
+            }
+
+
+            button {
+                margin: 10px 30px;
+                padding: 8px 10px;
+                width: 180px;
+                border: 1px solid #ff5a3c;
+                background-color: #ff5a3c;
+                border-radius: 4px;
+                color: white;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 18px;
+
+
+                }
+
+            }
+
+            i {
+                font-size: 30px;
+                margin-top: 10px;
+                text-align: center;
+                cursor: pointer;
+                background-color: white;
+                padding: 10px;
+                border-radius: 48%;
+
+
+
+            }
+
+        }
+
+    }
+
+
+
+}
+
+.fa-angle-right {
+    font-size: 33px;
+    padding: 10px 18px;
+    border: 1px solid gray;
+    background-color: $sliderback;
+    color: black;
+
+    &:hover {
+        background-color: #ff5a3c;
+        color: white;
+
+    }
+
+}
+
+.fa-angle-left {
+    font-size: 33px;
+    padding: 10px 18px;
+    border: 1px solid gray;
+    background-color: $sliderback;
+    color: black;
+
+    &:hover {
+        background-color: #ff5a3c;
+        color: white;
+
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+
+    .slider {
+        width: 100%;
+        position: relative;
+        overflow-x: hidden;
+        background-color: $sliderback;
+        margin: 20px auto;
+
+        .slide {
+            margin: 10px 10px;
+
+            .name {
+                margin: 15px 10px;
+                padding: 7px 5px;
+
+                i {
+                    color: #ff5a3c;
+                    font-size: 20px;
+                    // margin: 5px 3px;
+                    margin: 10px 10px;
+                    padding: 8px 4px;
+
+                    span {
+                        color: #0b2c3d;
+                    }
+
+                }
+
+
+                h2 {
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    margin: 5px 15px;
+                    padding: 5px 7px;
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                    color: black;
+                    font-family: initial;
+                }
+
+                p {
+                    border-left: 2px solid rgb(182, 182, 182);
+                    text-transform: capitalize;
+                    margin: 5px 12px;
+                    padding: 8px 10px;
+                    letter-spacing: 2px;
+                    color: black;
+                    font-family: inherit;
+                }
+
+
+                button {
+                    margin: 8px 5px;
+                    padding: 5px 5px;
+                    width: 140px;
+                    border: 1px solid #ff5a3c;
+                    background-color: #ff5a3c;
+                    border-radius: 4px;
+                    color: white;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 15px;
+
+
+                    }
+
+                }
+
+                i {
+                    font-size: 25px;
+                    margin-top: 10px;
+                    text-align: center;
+                    cursor: pointer;
+                    background-color: white;
+                    padding: 10px;
+                    border-radius: 48%;
+
+
+
+                }
+
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .fa-angle-right {
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 1px solid gray;
+        background-color: $sliderback;
+        color: black;
+
+        &:hover {
+            background-color: #ff5a3c;
+            color: white;
+
+        }
+
+    }
+
+    .fa-angle-left {
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 1px solid gray;
+        background-color: $sliderback;
+        color: black;
+
+        &:hover {
+            background-color: #ff5a3c;
+            color: white;
+
+        }
+    }
+}

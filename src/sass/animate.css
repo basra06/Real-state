@@ -1,0 +1,65 @@
+.animate {
+  width: 100%;
+  overflow-x: hidden;
+}
+.animate .container {
+  width: 100%;
+}
+.animate .container .row .tex {
+  margin: 30px auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+.animate .container .row .tex button {
+  width: 140px;
+  padding: 5px;
+  margin: 0px 10px;
+  color: white;
+  background-color: #ee806c;
+  border-radius: 40px;
+  border: 1px #ff5a3c;
+}
+.animate .container .row .tex h3 {
+  margin: 20px 3px;
+  padding: 8px;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+.animate .container .row .card {
+  width: 100%;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+}
+.animate .container .row .card h5 {
+  margin: 5px auto;
+}
+.animate .container .row .card h5 i {
+  font-size: 40px;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 50%;
+  background-color: #f5a091;
+}
+.animate .container .row .card:hover {
+  background-color: #ff5a3c;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: white;
+}
+.animate .container .row .card p i {
+  position: absolute;
+  bottom: 0;
+  margin: 2px;
+  font-size: 20px;
+  color: #1a36d4;
+  text-align: center;
+}
+.animate .container .row .card p i:hover {
+  color: white;
+}
+.animate .container .row .card:hover {
+  color: white;
+}/*# sourceMappingURL=animate.css.map */

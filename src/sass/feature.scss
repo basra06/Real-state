@@ -1,0 +1,84 @@
+.feature {
+    width: 100%;
+    overflow-x: hidden;
+
+
+    .image {
+        margin: 5px;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+    }
+
+    .text {
+        margin: 30px 10px;
+        padding: 10px;
+
+        .butto {
+            width: 140px;
+            padding: 5px;
+            margin: 0px 10px;
+
+
+            color: #ff5a3c;
+            background-color: #f7b3a7;
+            border-radius: 40px;
+            border: 1px #ff5a3c
+        }
+
+        h2 {
+            margin: 20px 3px;
+            padding: 8px;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 22px;
+            color: black;
+            font-family: initial;
+            margin: 20px 3px;
+            padding: 4px;
+        }
+
+        .row {
+            margin: 10px auto;
+
+
+            .fa-home {
+                padding: 17px;
+                border-radius: 50%;
+                background-color: #ecebeb;
+                font-size: 25px;
+                color: #ff5a3c;
+                margin: 0px 10px;
+            }
+        }
+
+        .para {
+            padding: 5px;
+            margin: 5px;
+            border-left: 4px solid #ff5a3c;
+            background-color: rgba(229, 62, 41, 0.05);
+        }
+
+        .butt {
+            margin: 15px 20px;
+
+            button {
+                width: 160px;
+                background-color: #ff5a3c;
+                color: white;
+                border: 1px solid #ff5a3c;
+                padding: 10px;
+                font-size: 18px;
+                font-weight: bold;
+                border-radius: 4px;
+            }
+
+        }
+
+    }
+}

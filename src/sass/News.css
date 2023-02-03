@@ -1,0 +1,83 @@
+.news {
+  width: 100%;
+  overflow-x: hidden;
+}
+.news .container {
+  background-color: white;
+  width: 100%;
+}
+.news .container .row .tex {
+  margin: 30px auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+.news .container .row .tex button {
+  width: 140px;
+  padding: 5px;
+  margin: 0px 10px;
+  color: white;
+  background-color: #ee806c;
+  border-radius: 40px;
+  border: 1px #ff5a3c;
+}
+.news .container .row .tex h3 {
+  margin: 20px 3px;
+  padding: 8px;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+.news .container .row .card .st {
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+.news .container .row .card .st p {
+  font-size: 18px;
+  color: black;
+}
+.news .container .row .card .st p i {
+  font-size: 22px;
+  color: #ff5a3c;
+}
+.news .container .row .card .stt {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0px;
+}
+.news .container .row .card .stt .date p {
+  color: black;
+  font-size: 18px;
+}
+.news .container .row .card .stt .date p i {
+  color: #ff5a3c;
+  font-size: 24px;
+  margin: 7px 0px;
+}
+.news .container .row .card .stt .more p {
+  color: black;
+  font-size: 18px;
+  margin: 5px;
+}
+.news .container .row .card .stt .more p a {
+  text-decoration: none;
+  color: #ff5a3c;
+}
+.news .container .row .card .stt .more p a:hover {
+  color: red;
+}
+.news .container .row .card .stt .more p i {
+  margin: 0px 4px;
+  color: #ff5a3c;
+}
+.news .container .row .card .card-title {
+  padding: 2px;
+  color: black;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 24px;
+  margin: 4px 30px;
+}
+.news .container .row:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=News.css.map */

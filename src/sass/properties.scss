@@ -1,0 +1,153 @@
+.properties {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+
+    .container {
+        margin: 35px auto;
+        width: 100%;
+
+        .row {
+            margin: 5px auto;
+
+            .tex {
+                margin: 30px auto;
+                padding: 20px 10px;
+                text-align: center;
+
+                button {
+                    width: 140px;
+                    padding: 5px;
+                    margin: 0px 10px;
+                    color: white;
+                    background-color: #ee806c;
+                    border-radius: 40px;
+                    border: 1px #ff5a3c
+                }
+
+                h3 {
+                    margin: 20px 3px;
+                    padding: 8px;
+                    font-size: 45px;
+                    font-weight: bold;
+                    color: black
+                }
+            }
+
+
+            .card {
+                width: 100%;
+
+                button {
+                    position: absolute;
+                }
+
+                .tt {
+                    background-color: green;
+                    color: white;
+                    width: 100px;
+                    padding: 2px;
+                    border: 1px solid green;
+                    border-radius: 5px;
+                    float: right;
+                    right: 0;
+                    top: 2;
+                    margin: 7px;
+
+                }
+
+                .card {
+                    border: none;
+                }
+
+                .card-body {
+                    h4 {
+                        color: #ff5a3c;
+                        font-size: 26px;
+                        margin: 10px auto;
+                        padding: 4px;
+                    }
+
+                    .card-title {
+                        padding: 4px;
+                        margin: 4px;
+                        font-size: 28px;
+                        color: black;
+                        font-weight: 700;
+                    }
+
+                    .card-text {
+                        padding: 2px;
+                        margin: 4px;
+                        color: black;
+
+                    }
+
+                    .st {
+                        margin: 10px;
+                        padding: 3px;
+                        display: flex;
+                        justify-content: space-around;
+
+                        p {
+                            font-weight: bold;
+
+                            i {
+                                font-size: 20px;
+                                margin: 4px;
+                                color: #ff5a3c;
+                            }
+                        }
+                    }
+                }
+
+            &:hover{
+                cursor: pointer;
+            }
+            }
+
+
+        }
+
+    }
+
+
+
+}
+
+
+@media screen and (max-width:500px) {
+    .properties{
+      .container{
+
+         .tex{
+             margin: 20px auto;
+             padding: 10px 10px;
+             text-align: center;
+     
+             button {
+                 width: 140px;
+                 padding: 5px;
+                 margin: 0px 10px;
+                 color: white;
+                 background-color: #ee806c;
+                 border-radius: 40px;
+                 border: 1px #ff5a3c
+             }
+     
+             h2{
+                 margin: 15px 3px;
+                 padding: 0px;
+                 font-size: 28px;
+                 font-weight: normal;
+                 color: black
+             }
+         }
+     }
+    }
+    
+   }
+
+
+
+

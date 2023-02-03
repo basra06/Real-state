@@ -1,0 +1,113 @@
+.news {
+    width: 100%;
+    overflow-x: hidden;
+
+    .container {
+        background-color: white;
+        width: 100%;
+
+        .row {
+            .tex {
+                margin: 30px auto;
+                padding: 20px 10px;
+                text-align: center;
+
+                button {
+                    width: 140px;
+                    padding: 5px;
+                    margin: 0px 10px;
+                    color: white;
+                    background-color: #ee806c;
+                    border-radius: 40px;
+                    border: 1px #ff5a3c
+                }
+
+                h3 {
+                    margin: 20px 3px;
+                    padding: 8px;
+                    font-size: 45px;
+                    font-weight: bold;
+                    color: black
+                }
+            }
+
+            .card {
+                .st {
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 5px;
+
+                    p {
+                        font-size: 18px;
+                        color: black;
+
+                        i {
+                            font-size: 22px;
+                            color: #ff5a3c;
+                        }
+                    }
+                }
+
+
+                .stt {
+                    display: flex;
+                    justify-content: space-around;
+                    margin: 10px 0px;
+
+                    .date {
+                        p {
+                            color: black;
+                            font-size: 18px;
+
+                            i {
+                                color: #ff5a3c;
+                                font-size: 24px;
+                                margin: 7px 0px;
+                            }
+                        }
+                    }
+
+                    .more {
+                        p {
+                            color: black;
+                            font-size: 18px;
+                            margin: 5px;
+
+                            a {
+                                text-decoration: none;
+                                color: #ff5a3c;
+
+                                &:hover {
+                                    color: red;
+                                }
+
+                            }
+
+                            i {
+                                margin: 0px 4px;
+                                color: #ff5a3c;
+                            }
+
+                        }
+                    }
+                }
+
+                .card-title {
+                    padding: 2px;
+                    color: black;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    font-size: 24px;
+                    margin: 4px 30px;
+                }
+            }
+
+
+            &:hover {
+                cursor: pointer;
+            }
+
+
+        }
+    }
+}

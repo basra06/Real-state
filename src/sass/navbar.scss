@@ -1,0 +1,199 @@
+$navbarbackgroundcolor: white;
+$linkcolor: #5c727d;
+
+.navbarsection {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: $navbarbackgroundcolor;
+    z-index: 10000;
+    position: relative;
+  
+    .sticky-top {
+        position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  color: white;
+  .collapse {
+    background-color: black;
+    color: white;
+}
+
+
+    }
+
+    .container {
+        width: 100%;
+
+
+        .navbar {
+            width: 100%;
+            background-color: $navbarbackgroundcolor;
+
+        }
+
+        .navbar-toggler {
+            margin-top: 3px;
+            padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+            font-size: var(--bs-navbar-toggler-font-size);
+            line-height: 1;
+            /* color: var(--bs-navbar-color); */
+            background-color: #ff5a3c;
+            color: $navbarbackgroundcolor;
+            border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+            border-radius: var(--bs-navbar-toggler-border-radius);
+            transition: var(--bs-navbar-toggler-transition);
+        }
+
+        .navbar-nav {
+            margin-bottom: 5px;
+
+            .nav-item a {
+                text-decoration: none;
+                color: $linkcolor;
+                font-weight: 600;
+                padding: 0px 5px;
+                margin: 0px 10px;
+
+                &:hover {
+                    color: #ff5a3c;
+                }
+
+            }
+
+            .nav-link {
+
+                font-weight: 600;
+                font-size: 18px;
+                margin: 0px 4px;
+                padding: 0px 3px;
+                text-transform: capitalize;
+
+            }
+
+            .nav-link.active {
+                color: #ff5a3c;
+                text-decoration: underline 2px $linkcolor;
+            }
+
+        }
+
+        .d-flex {
+            margin-left: 20px;
+
+            button {
+                background-color: #ff5a3c;
+                color: white;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+
+                    &:hover {
+                        color: white;
+                        ;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .collapse {
+        background-color: #5c727d;
+        color: white;
+
+    }
+
+    .navbarsection {
+        width: 100%;
+        overflow-x: hidden;
+        background-color: $navbarbackgroundcolor;
+
+        .container {
+            width: 100%;
+
+            .navbar {
+                width: 100%;
+                background-color: $navbarbackgroundcolor;
+
+            }
+
+            .navbar-toggler {
+                margin-top: 3px;
+                padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+                font-size: var(--bs-navbar-toggler-font-size);
+                line-height: 1;
+                background-color: #ff5a3c;
+                color: $navbarbackgroundcolor;
+                border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+                border-radius: var(--bs-navbar-toggler-border-radius);
+                transition: var(--bs-navbar-toggler-transition);
+            }
+
+            .navbar-nav {
+                margin-bottom: 5px;
+                margin-top: 10px;
+
+                .nav-item a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 600;
+                    padding: 0px 5px;
+
+                    margin: 10px 20px;
+
+                    &:hover {
+                        color: #ff5a3c;
+                    }
+
+                }
+
+                .nav-link {
+                    // color: $linkcolor;
+                    font-weight: 600;
+                    font-size: 18px;
+                    margin: 0px 8px;
+                    padding: 0px 3px;
+                    text-transform: capitalize;
+
+                }
+
+            }
+
+            .d-flex {
+                margin-left: 20px;
+                margin-bottom: 20px;
+
+                button {
+                    background-color: #ff5a3c;
+                    color: white;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+
+                        &:hover {
+                            color: white;
+                            ;
+
+                        }
+                    }
+                }
+            }
+
+
+
+        }
+
+
+    }
+
+}

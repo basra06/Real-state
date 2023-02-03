@@ -1,0 +1,141 @@
+.testsection {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #eaecec;
+}
+.testsection .container {
+  margin: 20px auto;
+  width: 100%;
+}
+.testsection .container .row .textdat {
+  margin: 30px auto;
+  padding: 20px 10px;
+  text-align: center;
+}
+.testsection .container .row .textdat button {
+  width: 140px;
+  padding: 5px;
+  margin: 0px 10px;
+  color: white;
+  background-color: #ee806c;
+  border-radius: 40px;
+  border: 1px #ff5a3c;
+}
+.testsection .container .row .textdat h3 {
+  margin: 20px 3px;
+  padding: 8px;
+  font-size: 45px;
+  font-weight: bold;
+  color: black;
+}
+.testsection .container .row .card {
+  width: 100%;
+  border: 1px solid rgb(226, 223, 223);
+  box-shadow: 2px 2px 2px rgb(235, 110, 72);
+}
+.testsection .container .row .card:hover {
+  cursor: pointer;
+  background-color: rgb(243, 221, 221);
+}
+.testsection .container .row .card .card-text {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: rgb(51, 44, 44);
+  margin: 5px;
+  padding: 2px;
+  text-align: justify;
+}
+.testsection .container .row .card .detail {
+  margin: 10px 10px;
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+}
+.testsection .container .row .card .detail .im img {
+  width: 65px;
+  height: 66px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.testsection .container .row .card .detail .tex {
+  margin: 25px 5px 5px 5px;
+  padding: 4px;
+}
+.testsection .container .row .card .detail .tex h6 {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+}
+@media screen and (max-width: 600px) {
+  .testsection .container {
+    margin: 15px auto;
+    width: 100%;
+  }
+  .testsection .container .row .textdat {
+    margin: 10px auto;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  .testsection .container .row .textdat button {
+    width: 140px;
+    padding: 5px;
+    margin: 5px 10px;
+    color: white;
+    background-color: #ee806c;
+    border-radius: 40px;
+    border: 1px #ff5a3c;
+  }
+  .testsection .container .row .textdat h3 {
+    margin: 20px 3px;
+    padding: 4px;
+    font-size: 39px;
+    font-weight: bold;
+    color: black;
+  }
+  .testsection .container .row .card {
+    width: 100%;
+    border: 1px solid rgb(226, 223, 223);
+    box-shadow: 2px 2px 2px rgb(235, 110, 72);
+  }
+  .testsection .container .row .card:hover {
+    cursor: pointer;
+    background-color: rgb(243, 221, 221);
+  }
+  .testsection .container .row .card .card-text {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: rgb(51, 44, 44);
+    margin: 3px;
+    padding: 2px;
+    text-align: justify;
+  }
+  .testsection .container .row .card .detail {
+    margin: 6px 6px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .testsection .container .row .card .detail .im img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  .testsection .container .row .card .detail .tex {
+    margin: 15px 2px 2px 2px;
+    padding: 2px;
+  }
+  .testsection .container .row .card .detail .tex h6 {
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+  }
+}
+
+.slick-next:before, .slick-prev:before {
+  display: none;
+}/*# sourceMappingURL=test.css.map */

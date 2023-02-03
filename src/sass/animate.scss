@@ -1,0 +1,87 @@
+.animate {
+    width: 100%;
+    overflow-x: hidden;
+
+
+    .container {
+
+        width: 100%;
+
+        .row {
+            .tex {
+                margin: 30px auto;
+                padding: 20px 10px;
+                text-align: center;
+
+                button {
+                    width: 140px;
+                    padding: 5px;
+                    margin: 0px 10px;
+                    color: white;
+                    background-color: #ee806c;
+                    border-radius: 40px;
+                    border: 1px #ff5a3c
+                }
+
+                h3 {
+                    margin: 20px 3px;
+                    padding: 8px;
+                    font-size: 45px;
+                    font-weight: bold;
+                    color: black
+                }
+            }
+
+
+            .card {
+                width: 100%;
+                border: 1px solid white;
+                text-align: center;
+                padding: 5px;
+                background-color: white;
+
+                h5 {
+                    margin: 5px auto;
+
+                    i {
+                        font-size: 40px;
+                        padding: 30px;
+                        margin: 20px;
+                        border-radius: 50%;
+                        background-color: #f5a091;
+                    }
+                }
+
+                &:hover {
+                    background-color: #ff5a3c;
+                    cursor: pointer;
+                    transition: 0.2s ease-in-out;
+                    color: white;
+
+                }
+
+                p {
+                    i {
+                        position: absolute;
+                        bottom: 0;
+                        margin: 2px;
+                        font-size: 20px;
+                        color: #1a36d4;
+                        text-align: center;
+
+                        &:hover {
+                            color: white;
+                        }
+                    }
+                }
+
+                &:hover {
+                    color: white;
+                }
+            }
+
+
+        }
+    }
+
+}

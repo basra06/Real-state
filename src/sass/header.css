@@ -1,0 +1,178 @@
+.header {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: #0b2c3d;
+}
+.header .container {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.header .container .chk {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header .container .chk .left {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.header .container .chk .left .sec {
+  margin: 2px 10px;
+  padding: 0px 2px;
+}
+.header .container .chk .left .sec .fa-map-marker {
+  color: #ff5a3c;
+  font-size: 20px;
+}
+.header .container .chk .left .sec .fa-envelope {
+  color: #ff5a3c;
+  font-size: 20px;
+}
+.header .container .chk .left .sec p {
+  text-transform: capitalize;
+}
+.header .container .chk .left .sec p a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.header .container .chk .left .sec p a:hover {
+  color: #ff5a3c;
+  transition: 0.5s ease-in-out;
+}
+.header .container .chk .right {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.header .container .chk .right .icon {
+  margin: 0px 10px;
+  padding: 0px 2px;
+  font-size: 18px;
+}
+.header .container .chk .right .icon p {
+  margin: 0px 20px;
+}
+.header .container .chk .right .icon p i {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+.header .container .chk .right .icon button {
+  background-color: #ff5a3c;
+  height: auto;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+  height: 36px;
+  width: 130px;
+  font-weight: 600;
+  border-radius: 2px;
+  border: #0b2c3d;
+}
+.header .container .chk .right .icon button:hover {
+  background-color: #d53f24;
+  color: #ff5a3c;
+  transition: 0.5s ease-in-out;
+}
+.header .container .chk .right .icon button a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .right {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .left {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 500px) {
+  .chk {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .chk .left {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .chk .left .sec {
+    margin: 2px 4px;
+    padding: 0px 2px;
+  }
+  .chk .left .sec .fa-map-marker {
+    color: #ff5a3c;
+    font-size: 15px;
+  }
+  .chk .left .sec .fa-envelope {
+    color: #ff5a3c;
+    font-size: 15px;
+  }
+  .chk .left .sec p {
+    text-transform: capitalize;
+    font-size: 12px;
+  }
+  .chk .left .sec p a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+  }
+  .chk .left .sec p a:hover {
+    color: #ff5a3c;
+    transition: 0.5s ease-in-out;
+  }
+  .chk .right {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .chk .right .icon {
+    margin: 0px 4px;
+    padding: 0px 2px;
+    font-size: 15px;
+  }
+  .chk .right .icon p {
+    margin: 0px 5px;
+    font-size: 10px;
+  }
+  .chk .right .icon p i {
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+  }
+  .chk .right .icon button {
+    background-color: #ff5a3c;
+    height: auto;
+    cursor: pointer;
+    color: white;
+    font-size: 12px;
+    height: auto;
+    width: 60px;
+    font-weight: 500;
+    border-radius: 2px;
+    border: #0b2c3d;
+  }
+  .chk .right .icon button:hover {
+    background-color: #d53f24;
+    color: #ff5a3c;
+    transition: 0.5s ease-in-out;
+  }
+  .chk .right .icon button a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=header.css.map */

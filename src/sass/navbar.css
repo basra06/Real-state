@@ -1,0 +1,143 @@
+.navbarsection {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: white;
+  z-index: 10000;
+  position: relative;
+}
+.navbarsection .sticky-top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  color: white;
+}
+.navbarsection .sticky-top .collapse {
+  background-color: black;
+  color: white;
+}
+.navbarsection .container {
+  width: 100%;
+}
+.navbarsection .container .navbar {
+  width: 100%;
+  background-color: white;
+}
+.navbarsection .container .navbar-toggler {
+  margin-top: 3px;
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  /* color: var(--bs-navbar-color); */
+  background-color: #ff5a3c;
+  color: white;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+.navbarsection .container .navbar-nav {
+  margin-bottom: 5px;
+}
+.navbarsection .container .navbar-nav .nav-item a {
+  text-decoration: none;
+  color: #5c727d;
+  font-weight: 600;
+  padding: 0px 5px;
+  margin: 0px 10px;
+}
+.navbarsection .container .navbar-nav .nav-item a:hover {
+  color: #ff5a3c;
+}
+.navbarsection .container .navbar-nav .nav-link {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0px 4px;
+  padding: 0px 3px;
+  text-transform: capitalize;
+}
+.navbarsection .container .navbar-nav .nav-link.active {
+  color: #ff5a3c;
+  -webkit-text-decoration: underline 2px #5c727d;
+          text-decoration: underline 2px #5c727d;
+}
+.navbarsection .container .d-flex {
+  margin-left: 20px;
+}
+.navbarsection .container .d-flex button {
+  background-color: #ff5a3c;
+  color: white;
+}
+.navbarsection .container .d-flex button a {
+  text-decoration: none;
+  color: white;
+}
+.navbarsection .container .d-flex button a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .collapse {
+    background-color: #5c727d;
+    color: white;
+  }
+  .navbarsection {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+  }
+  .navbarsection .container {
+    width: 100%;
+  }
+  .navbarsection .container .navbar {
+    width: 100%;
+    background-color: white;
+  }
+  .navbarsection .container .navbar-toggler {
+    margin-top: 3px;
+    padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    background-color: #ff5a3c;
+    color: white;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
+  }
+  .navbarsection .container .navbar-nav {
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  .navbarsection .container .navbar-nav .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 0px 5px;
+    margin: 10px 20px;
+  }
+  .navbarsection .container .navbar-nav .nav-item a:hover {
+    color: #ff5a3c;
+  }
+  .navbarsection .container .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px 8px;
+    padding: 0px 3px;
+    text-transform: capitalize;
+  }
+  .navbarsection .container .d-flex {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .navbarsection .container .d-flex button {
+    background-color: #ff5a3c;
+    color: white;
+  }
+  .navbarsection .container .d-flex button a {
+    text-decoration: none;
+    color: white;
+  }
+  .navbarsection .container .d-flex button a:hover {
+    color: white;
+  }
+}/*# sourceMappingURL=navbar.css.map */
